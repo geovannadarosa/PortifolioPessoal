@@ -1,0 +1,15 @@
+.projetos-portifolios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.tittle-projetos{
+    font-size: 2rem;
+    text-align: center;
+    margin-right: 1300%;
+    justify-content: center;
+    margin-top: 500%;
+    color: var(--color-primary-13);
+}

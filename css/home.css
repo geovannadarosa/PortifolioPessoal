@@ -3,37 +3,40 @@
     position: relative;
     width: 100%;
 }
-.sobre{
-
-}
-.div-sobre{
+.div-nome-dev{
     width: 50%;
 
 }
 
-.sobre h1{
+.nome-dev h1{
     color: var(--color-primary-1);
     font-family: "Press Start 2P", system-ui;
     font-size: 40px;
     margin-top: 30%;
     margin-left: 10%;
 }
-.sobre h2{
+.nome-dev h2{
     color: var(--color-primary-8);
     font-size: 40px;
     margin-left: 10%;
-    
+}
+.nome-dev h3{
+    color: var(--color-primary-1);
+    font-size: 15px;
+    margin-left: 10%;
+    margin-right: 30%;
 }
 .box-img{
     z-index: 2;
 
 }
 .box-img img{
-    width: 50%;
+    width: 600px;
     display: flex;
     flex-direction: column;
     gap: 28px;
     margin-top: 10%;
-    margin-left: 30%;
+    margin-left: -20%;
     border-radius: 100%;
+    margin-right: 30%;
 }
