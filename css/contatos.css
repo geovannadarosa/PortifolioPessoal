@@ -1,5 +1,6 @@
 .contatos{
     background-color: var(--color-primary-12);
+    width: 100%;
 }
 .footer-itens{
     display: flex;
@@ -17,4 +18,9 @@
 .social-media-btn a{
     color: var(--color-primary-14);
     font-size: 25px;
+}
+@media screen and (max-width: 600px){
+    .contatos{
+        width: auto ;
+    }
 }
