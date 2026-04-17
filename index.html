@@ -9,7 +9,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    <script src="JS/index.js" defer></script>
+    <script src="index.js" defer></script>
 </head>
 <body>
     <header>
@@ -17,7 +17,7 @@
             <ul class="nav-list">
                 <li class="nav-item"><a href="#sobre">Sobre</a></li>
                 <li class="nav-item"><a href="#projetos">Projetos</a></li>
-                <li class="nav-item"><a href="#Redes-Socias">Contato</a></li>
+                <li class="nav-item"><a href="#contatos">Contatos</a></li>
             </ul>
             <button id="nav-btn" class="nav-btn">Vamos Conversar!
                 <img src="img/icone.png" alt="" class="icone">
@@ -29,14 +29,14 @@
         <div class="mobile-menu">
             <ul class="mobile-nav-list">
                 <li class="nav-item"><a href="#sobre">Sobre</a></li>
-                <li class="nav-item"><a href="#sobre">Projetos</a></li>
-                <li class="nav-item"><a href="#sobre">Contatos</a></li>
+                <li class="nav-item"><a href="#projetos">Projetos</a></li>
+                <li class="nav-item"><a href="#contatos">Contatos</a></li>
             </ul>
         </div>
 
     </header>
-    <section class="home">
-        <div class="div-nove-dev">
+    <section class="home" id="sobre">
+        <div class="div-nome-dev">
             <div class="nome-dev">    
                 <h1>FrontEnd Developer</h1>
                 <h2>Geovanna da Rosa Cáceres</h2>
@@ -53,28 +53,46 @@
             <img src="img/Geovanna.jpg" alt="" >
         </div>
     </section>
-        <section class="projetos-portifolios">            
+        <section class="projetos-portifolios" id="projetos">            
             <h1 class="tittle-projetos">Projetos</h1>
             <div class="area-card">
                 <div class="card">
-                    <p>Projeto ParkTec - Figma</p>
-                    <img src="img/figma-logo-square-outline-icon-figma-app-editable-transparent-background-premium-social-media-design-for-digital-download-free-png.webp" alt="" class="figma">
+                    <a href="https://www.figma.com/proto/sas3H1AvEXKwBKPjZ7aBw4/ParkTecCG---SGR?node-id=7605-11661&t=qcnw1FcBE4qEORNT-0&scaling=min-zoom&content-scaling=fixed&page-id=409%3A195&starting-point-node-id=7605%3A11661&show-proto-sidebar=1">
+
+                        <p>Projeto ParkTec - Figma</p>
+                        <img src="img/figma-logo-square-outline-icon-figma-app-editable-transparent-background-premium-social-media-design-for-digital-download-free-png.webp" alt="" class="figma">
+                    </a>
+                    </div>
+                <div class="card">
+                    <a href="https://www.figma.com/proto/UycvZ1hdYs5deGoa3wdc1L/Alfa-Churasqueira?node-id=4-6">
+                        <p>Projeto ReservaQuiosque - Figma</p>
+                        <img src="img/figma-logo-square-outline-icon-figma-app-editable-transparent-background-premium-social-media-design-for-digital-download-free-png.webp" alt="" class="figma">
+                    </a>
                 </div>
                 <div class="card">
-                    <p>Projeto ReservaQuiosque - Figma</p>
-                    <img src="img/figma-logo-square-outline-icon-figma-app-editable-transparent-background-premium-social-media-design-for-digital-download-free-png.webp" alt="" class="figma">
-                </div>
-                <div class="card">
-                    <p>Projeto Sushi543 - Github</p>
-                    <img src="img/2111432.png" alt="" class="github">
+                    <a href="https://geovannadarosa.github.io/SiteSushi/">
+
+                        <p>Projeto Sushi543 - Github</p>
+                        <img src="img/2111432.png" alt="" class="github">
+                    </a>
                 </div>
             </div>
         </section>
         
     <script src="main.js"></script>
         
-    <section class="contatos">
-
+    <section class="contatos" id="contatos">
+        <footer>
+        <div class="footer-itens">
+            <span class="copyright">
+                &copy 2026 Geovanna Cáceres
+            </span>
+            <div class="social-media-btn">
+                <a href="https://www.instagram.com/ge.caceres/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/geovannadarosa"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
     </section>
 
 

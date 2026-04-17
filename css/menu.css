@@ -68,29 +68,42 @@ header{
 /* .nav-btn:hover .icone{
     display: block;
 } */
+.mobile-btn, .mobile-menu{
+    display: none;
+}
 
-@media screen and (max-width:1170px){
-    .nav-bar{
-        display: none;
+@media screen and (max-width:720px){
+     .nav-bar{
+        display: none; /* Some com a barra de navegação principal */
     }
+
+    /* Botão do menu mobile */
     .mobile-btn{
-        display: block;
-        border: none;
-        background-color: transparent;
-        font-size: 1.5rem;
-        cursor:pointer;
+        display: block; /* Mostra o botão */
+        border: none; /* Remove a borda */
+        color: var(--color-primary-11); /* Fundo transparente */
+        background: transparent;
+        font-size: 1.5rem; /* Tamanho do ícone */
+        cursor: pointer; /* Mostra a mãozinha ao passar o mouse */
     }
+
+    /* Quando o menu mobile estiver ativo */
     .mobile-menu.active{
-        display: flex;
-        align-items: center;
+        display: flex; /* Mostra o menu */
+        flex-direction: column; /* Organiza os itens em coluna */
+        align-items: center; /* Centraliza os itens */
     }
+
+    /* Lista do menu mobile */
     .mobile-nav-list{
-        text-align: center  ;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        background-color: var(--color-primary-7);
+        display: flex; /* Usa Flexbox */
+        flex-direction: column; /* Itens em coluna */
+        gap: 12px; /* Espaço entre os itens */
+        margin: 12px 5px; /* Espaço externo */
     }
+
+    /* Itens do menu mobile */
     .mobile-nav-list .nav-item{
-        text-align: center;
+        text-align: center; /* Centraliza o texto */
     }
 }

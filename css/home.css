@@ -2,17 +2,17 @@
     display: flex;
     position: relative;
     width: 100%;
+    flex-wrap: wrap;
 }
 .div-nome-dev{
     width: 50%;
-
 }
 
 .nome-dev h1{
     color: var(--color-primary-1);
     font-family: "Press Start 2P", system-ui;
     font-size: 40px;
-    margin-top: 30%;
+    margin-top: 10%;
     margin-left: 10%;
 }
 .nome-dev h2{
@@ -24,21 +24,25 @@
     color: var(--color-primary-1);
     font-size: 15px;
     margin-left: 10%;
-    margin-right: 30%;
-}
-.box-img{
-    z-index: 2;
-
+    margin-right: 20%;
+    width: 100%;
 }
 .box-img img{
-    width: 600px;
-    display: flex;
-    flex-direction: column;
-    gap: 28px;
+    width: 400px;
     margin-top: 10%;
     border-radius: 100%;
-    margin-right: 30%;
+    margin-left: 300px;
 }
 @media screen and (max-width:600px){
-    
+    .home{
+        flex-direction: column;   
+        align-items: flex-end;    
+    }
+
+    .box-img img{
+        width: 250px; 
+        margin-right: 0;
+        padding: 20px;
+    }
 }
+    
