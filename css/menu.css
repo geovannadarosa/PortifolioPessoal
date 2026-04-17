@@ -68,3 +68,29 @@ header{
 /* .nav-btn:hover .icone{
     display: block;
 } */
+
+@media screen and (max-width:1170px){
+    .nav-bar{
+        display: none;
+    }
+    .mobile-btn{
+        display: block;
+        border: none;
+        background-color: transparent;
+        font-size: 1.5rem;
+        cursor:pointer;
+    }
+    .mobile-menu.active{
+        display: flex;
+        align-items: center;
+    }
+    .mobile-nav-list{
+        text-align: center  ;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        background-color: var(--color-primary-7);
+    }
+    .mobile-nav-list .nav-item{
+        text-align: center;
+    }
+}
