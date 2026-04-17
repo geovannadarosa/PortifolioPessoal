@@ -27,6 +27,7 @@ body{
     --color-primary-11: #ffc8e1;
     --color-primary-12: #d14b87;
     --color-primary-13: #ffafde;
+    --color-primary-14: hsl(311, 100%, 93%);
 }
 
 *{
