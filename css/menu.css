@@ -72,7 +72,7 @@ header{
     display: none;
 }
 
-@media screen and (max-width:720px){
+@media screen and (max-width:1200px){
      .nav-bar{
         display: none; /* Some com a barra de navegação principal */
     }
